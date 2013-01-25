@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76003CAC16AB14140075B8F7 /* DropDownBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 76003CAB16AB14140075B8F7 /* DropDownBox.m */; };
+		76003CAF16AB142E0075B8F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76003CAE16AB142E0075B8F7 /* QuartzCore.framework */; };
+		7695F42416AA83C900D0FDAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7695F42316AA83C900D0FDAF /* UIKit.framework */; };
+		7695F42616AA83C900D0FDAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7695F42516AA83C900D0FDAF /* Foundation.framework */; };
+		7695F42816AA83C900D0FDAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7695F42716AA83C900D0FDAF /* CoreGraphics.framework */; };
+		7695F42E16AA83C900D0FDAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7695F42C16AA83C900D0FDAF /* InfoPlist.strings */; };
+		7695F43016AA83C900D0FDAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695F42F16AA83C900D0FDAF /* main.m */; };
+		7695F43416AA83C900D0FDAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695F43316AA83C900D0FDAF /* AppDelegate.m */; };
+		7695F43616AA83C900D0FDAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7695F43516AA83C900D0FDAF /* Default.png */; };
+		7695F43816AA83C900D0FDAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7695F43716AA83C900D0FDAF /* Default@2x.png */; };
+		7695F43A16AA83C900D0FDAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7695F43916AA83C900D0FDAF /* Default-568h@2x.png */; };
+		7695F43D16AA83C900D0FDAF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7695F43B16AA83C900D0FDAF /* MainStoryboard.storyboard */; };
+		7695F44816AA8AC600D0FDAF /* PlayingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7695F44716AA8AC600D0FDAF /* PlayingController.m */; };
+		769E48C816B1B0F600036D9F /* valve.png in Resources */ = {isa = PBXBuildFile; fileRef = 769E48C716B1B0F600036D9F /* valve.png */; };
+		76EEDCA316AAD0DB001DDE40 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EEDCA216AAD0DB001DDE40 /* OptionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76003CAA16AB14140075B8F7 /* DropDownBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownBox.h; sourceTree = "<group>"; };
+		76003CAB16AB14140075B8F7 /* DropDownBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownBox.m; sourceTree = "<group>"; };
+		76003CAE16AB142E0075B8F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7695F41F16AA83C900D0FDAF /* Valve Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Valve Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7695F42316AA83C900D0FDAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7695F42516AA83C900D0FDAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7695F42716AA83C900D0FDAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7695F42B16AA83C900D0FDAF /* Valve Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Valve Game-Info.plist"; sourceTree = "<group>"; };
+		7695F42D16AA83C900D0FDAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7695F42F16AA83C900D0FDAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7695F43116AA83C900D0FDAF /* Valve Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Valve Game-Prefix.pch"; sourceTree = "<group>"; };
+		7695F43216AA83C900D0FDAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7695F43316AA83C900D0FDAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7695F43516AA83C900D0FDAF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7695F43716AA83C900D0FDAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7695F43916AA83C900D0FDAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7695F43C16AA83C900D0FDAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7695F44616AA8AC600D0FDAF /* PlayingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingController.h; sourceTree = "<group>"; };
+		7695F44716AA8AC600D0FDAF /* PlayingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingController.m; sourceTree = "<group>"; };
+		769E48C716B1B0F600036D9F /* valve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = valve.png; sourceTree = "<group>"; };
+		76EEDCA116AAD0DB001DDE40 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		76EEDCA216AAD0DB001DDE40 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7695F41C16AA83C900D0FDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76003CAF16AB142E0075B8F7 /* QuartzCore.framework in Frameworks */,
+				7695F42416AA83C900D0FDAF /* UIKit.framework in Frameworks */,
+				7695F42616AA83C900D0FDAF /* Foundation.framework in Frameworks */,
+				7695F42816AA83C900D0FDAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7695F41416AA83C900D0FDAF = {
+			isa = PBXGroup;
+			children = (
+				7695F42916AA83C900D0FDAF /* Valve Game */,
+				7695F42216AA83C900D0FDAF /* Frameworks */,
+				7695F42016AA83C900D0FDAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7695F42016AA83C900D0FDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7695F41F16AA83C900D0FDAF /* Valve Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7695F42216AA83C900D0FDAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76003CAE16AB142E0075B8F7 /* QuartzCore.framework */,
+				7695F42316AA83C900D0FDAF /* UIKit.framework */,
+				7695F42516AA83C900D0FDAF /* Foundation.framework */,
+				7695F42716AA83C900D0FDAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7695F42916AA83C900D0FDAF /* Valve Game */ = {
+			isa = PBXGroup;
+			children = (
+				7695F43216AA83C900D0FDAF /* AppDelegate.h */,
+				7695F43316AA83C900D0FDAF /* AppDelegate.m */,
+				7695F44616AA8AC600D0FDAF /* PlayingController.h */,
+				7695F44716AA8AC600D0FDAF /* PlayingController.m */,
+				76EEDCA116AAD0DB001DDE40 /* OptionsViewController.h */,
+				76EEDCA216AAD0DB001DDE40 /* OptionsViewController.m */,
+				76003CAA16AB14140075B8F7 /* DropDownBox.h */,
+				76003CAB16AB14140075B8F7 /* DropDownBox.m */,
+				7695F43B16AA83C900D0FDAF /* MainStoryboard.storyboard */,
+				7695F42A16AA83C900D0FDAF /* Supporting Files */,
+			);
+			path = "Valve Game";
+			sourceTree = "<group>";
+		};
+		7695F42A16AA83C900D0FDAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7695F42B16AA83C900D0FDAF /* Valve Game-Info.plist */,
+				7695F42C16AA83C900D0FDAF /* InfoPlist.strings */,
+				7695F42F16AA83C900D0FDAF /* main.m */,
+				7695F43116AA83C900D0FDAF /* Valve Game-Prefix.pch */,
+				769E48C716B1B0F600036D9F /* valve.png */,
+				7695F43516AA83C900D0FDAF /* Default.png */,
+				7695F43716AA83C900D0FDAF /* Default@2x.png */,
+				7695F43916AA83C900D0FDAF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7695F41E16AA83C900D0FDAF /* Valve Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7695F44316AA83C900D0FDAF /* Build configuration list for PBXNativeTarget "Valve Game" */;
+			buildPhases = (
+				7695F41B16AA83C900D0FDAF /* Sources */,
+				7695F41C16AA83C900D0FDAF /* Frameworks */,
+				7695F41D16AA83C900D0FDAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Valve Game";
+			productName = "Valve Game";
+			productReference = 7695F41F16AA83C900D0FDAF /* Valve Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7695F41616AA83C900D0FDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Александр Демидов";
+			};
+			buildConfigurationList = 7695F41916AA83C900D0FDAF /* Build configuration list for PBXProject "Valve Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7695F41416AA83C900D0FDAF;
+			productRefGroup = 7695F42016AA83C900D0FDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7695F41E16AA83C900D0FDAF /* Valve Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7695F41D16AA83C900D0FDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7695F42E16AA83C900D0FDAF /* InfoPlist.strings in Resources */,
+				7695F43616AA83C900D0FDAF /* Default.png in Resources */,
+				7695F43816AA83C900D0FDAF /* Default@2x.png in Resources */,
+				7695F43A16AA83C900D0FDAF /* Default-568h@2x.png in Resources */,
+				7695F43D16AA83C900D0FDAF /* MainStoryboard.storyboard in Resources */,
+				769E48C816B1B0F600036D9F /* valve.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7695F41B16AA83C900D0FDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7695F43016AA83C900D0FDAF /* main.m in Sources */,
+				7695F43416AA83C900D0FDAF /* AppDelegate.m in Sources */,
+				7695F44816AA8AC600D0FDAF /* PlayingController.m in Sources */,
+				76EEDCA316AAD0DB001DDE40 /* OptionsViewController.m in Sources */,
+				76003CAC16AB14140075B8F7 /* DropDownBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7695F42C16AA83C900D0FDAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7695F42D16AA83C900D0FDAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7695F43B16AA83C900D0FDAF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7695F43C16AA83C900D0FDAF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7695F44116AA83C900D0FDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7695F44216AA83C900D0FDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7695F44416AA83C900D0FDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valve Game/Valve Game-Prefix.pch";
+				INFOPLIST_FILE = "Valve Game/Valve Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7695F44516AA83C900D0FDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Valve Game/Valve Game-Prefix.pch";
+				INFOPLIST_FILE = "Valve Game/Valve Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7695F41916AA83C900D0FDAF /* Build configuration list for PBXProject "Valve Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7695F44116AA83C900D0FDAF /* Debug */,
+				7695F44216AA83C900D0FDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7695F44316AA83C900D0FDAF /* Build configuration list for PBXNativeTarget "Valve Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7695F44416AA83C900D0FDAF /* Debug */,
+				7695F44516AA83C900D0FDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7695F41616AA83C900D0FDAF /* Project object */;
+}
